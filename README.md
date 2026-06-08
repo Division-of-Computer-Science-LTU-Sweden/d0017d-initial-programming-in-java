@@ -1,5 +1,7 @@
 # D0017D — Initial Programming in Java
 
+[![Student Info](https://img.shields.io/badge/Student-Info-blue)](STUDENT.md)
+
 Welcome! This course is designed for complete beginners — no prior programming experience needed.
 
 ---
