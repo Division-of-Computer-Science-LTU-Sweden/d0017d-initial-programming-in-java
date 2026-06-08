@@ -1,5 +1,7 @@
 # D0017D — Initial Programming in Java
 
+[![Student Info](https://img.shields.io/badge/Student-Info-blue)](STUDENT.md)
+
 Welcome! This course is designed for complete beginners — no prior programming experience needed.
 
 ---
@@ -8,7 +10,7 @@ Welcome! This course is designed for complete beginners — no prior programming
 
 - [ ] Created your own copy from the course template
 - [ ] Opened your Codespace for the first time
-- [ ] Entered your name and LTU username when the terminal prompted you
+- [ ] Created new issue > Student Registration
 - [ ] Ran `Hello.java` and saw `Hello, World!` in the terminal
 
 ---
