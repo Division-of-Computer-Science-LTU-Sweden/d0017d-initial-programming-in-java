@@ -10,7 +10,7 @@ Welcome! This course is designed for complete beginners — no prior programming
 
 - [ ] Created your own copy from the course template
 - [ ] Opened your Codespace for the first time
-- [ ] Entered your name and LTU username when the terminal prompted you
+- [ ] Created new issue > Student Registration
 - [ ] Ran `Hello.java` and saw `Hello, World!` in the terminal
 
 ---
