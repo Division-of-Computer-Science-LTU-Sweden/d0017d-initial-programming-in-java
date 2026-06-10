@@ -7,30 +7,13 @@ Welcome! This course is designed for complete beginners — no prior programming
 ## Setup Checklist
 
 - [ ] Created your own copy from the course template
-- [ ] Opened your Codespace for the first time
 - [ ] Ran `Hello.java` and saw `Hello, World!` in the terminal
 
 ---
 
-## Step 1 — Open your Codespace
+<!-- CODESPACE_BUTTON_PLACEHOLDER -->
 
-Replace `YOUR-GITHUB-USERNAME` in the link below with your GitHub username, then open it in your browser:
-
-```
-https://codespaces.new/YOUR-GITHUB-USERNAME/d0017d-initial-programming-in-java
-```
-
-> **Important:** only create one Codespace. If you already have one, find it at [github.com/codespaces](https://github.com/codespaces) and reopen it instead of creating a new one.
-
-After your first setup, use this button to return:
-
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](CODESPACE_URL_PLACEHOLDER)
-
-> The environment takes about two to three minutes to set up the first time.
-
----
-
-## Step 2 — Run your first program
+## Run your first program
 
 1. Open `Hello.java` in the file explorer on the left
 2. Click the **▶ Run** button in the top right corner of the editor

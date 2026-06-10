@@ -21,12 +21,11 @@ done
 EOF
 chmod +x $HOOK
 
-# Personalise the README with this repo's Codespace URL
-REMOTE_URL=$(git remote get-url origin 2>/dev/null)
-if [ -n "$REMOTE_URL" ]; then
-  REPO_PATH=$(echo "$REMOTE_URL" | sed 's|https://github.com/||;s|git@github.com:||;s|\.git$||')
-  sed -i "s|CODESPACE_URL_PLACEHOLDER|https://codespaces.new/${REPO_PATH}?quickstart=1|g" README.md
+# Add a direct return button to the README using this Codespace's unique URL
+if [ -n "$CODESPACE_NAME" ]; then
+  BUTTON="[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/${CODESPACE_NAME})"
+  sed -i "s|<!-- CODESPACE_BUTTON_PLACEHOLDER -->|${BUTTON}|g" README.md
   git add README.md
-  git diff --cached --quiet || git commit -m "chore: add Codespace link to README"
+  git diff --cached --quiet || git commit -m "chore: add Codespace return button to README"
   git push 2>/dev/null || true
 fi
