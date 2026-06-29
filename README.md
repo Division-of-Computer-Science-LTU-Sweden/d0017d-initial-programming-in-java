@@ -25,7 +25,7 @@ Welcome! This course is designed for complete beginners — no prior programming
 
 ```java
 void main() {
-    System.out.println("Hello, World!");
+    IO.println("Hello, World!");
 }
 ```
 
